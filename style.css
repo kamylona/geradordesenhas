@@ -1,15 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-:root{
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swa');
+
+:root {
     --branco: #ffffff;
     --cor-de-fundo: #E8F0F2;
     --fundo-senha: #D0EEFF;
     --fundo-texto: #2C3E50;
     --borda: #3498DB;
-    --fonte: 'Outfit', sans-serif;
-
-    body{
-        color: var(--branco);
-        background-color: var(--cor-de-fundo);
-        font-family: var(--fonte);
-    }
+    --fonte: 'PT_serif', sans-serif;
 }
+
+* {
+    font-weight: 700;
+}
+
+body {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+
+.titulo_principal {
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+
+.titulo_secundario {
+    font-size: 24px;
+}
+
+.conteudo_titulo[ text-align: center;
+margin-top: 80px;
+]
