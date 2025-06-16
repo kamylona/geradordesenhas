@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swa');
-
 :root {
     --branco: #ffffff;
-    --cor-de-fundo: #E8F0F2;
-    --fundo-senha: #D0EEFF;
-    --fundo-texto: #2C3E50;
-    --borda: #3498DB;
-    --fonte: 'PT_serif', sans-serif;
+    --cor-de-fundo: #8d4ab4;
+    --fundo-senha: #f2bfff;
+    --fundo-texto: rgb(193, 2, 211);
+    --borda: #b77bda;
 }
 
 * {
@@ -28,6 +25,37 @@ body {
     font-size: 24px;
 }
 
-.conteudo_titulo[ text-align: center;
-margin-top: 80px;
-]
+.conteudo_titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.cadeado_conteudo {
+    width: 100px;
+}
+
+.conteudo_senha {
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24;
+    border-bottom: 6px solid var(--borda);
+    font-size: 25px;
+}
+
+#campo_senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    width: 70%;
+
+}
+
+#campo_senha:focus{
+    outline: none;
+}
+
+.conteudo_senhas {
+    max-width: 1200px;
+    margin: 0 auto;
+}
